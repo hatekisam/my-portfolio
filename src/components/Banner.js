@@ -55,9 +55,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome </span>
-                <h1>{`Hi! I'm Mugisha`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "FrontEnd Developer", "Backend Developer","Full Stack Developer","Mobile Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <span className="tagline">Welcome</span>
+                <h1>{`Hi! I'm Mugisha`} </h1>
+                <p className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "FrontEnd Developer", "Backend Developer","Full Stack Developer","Mobile Developer" ]'><span className="wrap">{text}</span></p>
+                  <p>Hello! I'm a passionate software engineer with a strong background in Full Stack Development and Mobile Development. With years of hands-on experience, I've had the privilege of working on a diverse range of projects, from crafting responsive web applications to building engaging mobile experiences. My proficiency spans across both frontend and backend technologies, allowing me to seamlessly bridge the gap between user interfaces and server logic. I take pride in my ability to architect efficient and scalable systems that deliver exceptional user value. Whether it's leveraging the latest frontend frameworks or designing robust APIs, I'm committed to delivering high-quality solutions that empower businesses and elevate user experiences. I'm dedicated to staying updated with the ever-evolving tech landscape and am always excited to take on new challenges that push the boundaries of innovation. Let's connect and discuss how I can contribute to your next tech venture!</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
